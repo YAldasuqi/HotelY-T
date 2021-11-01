@@ -1,0 +1,255 @@
+/* Reset Values */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Start Main Styling */
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(182, 185, 12);
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+/* End Main Styling */
+
+
+/* Utility Classes */
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/* Start Navbar */
+
+#navbar {
+    background-color: rgb(123, 126, 121);
+    color: whitesmoke;
+    overflow: auto;
+}
+
+#navbar a {
+    color: whitesmoke;
+}
+
+#navbar h1 {
+    padding-top: 20px;
+    float: left;
+}
+
+#navbar ul {
+    list-style: none;
+    float: left;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background-color: brown;
+    color: burlywood;
+}
+
+
+/* End Navbar */
+
+
+/* Start Showcase */
+
+#showcase {
+    background: url('img/second.jpg');
+    height: 550px;
+}
+
+
+/* End Showcase */
+
+
+/* START shadw-box */
+
+.boxing {
+    color: #333;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    float: left;
+    overflow: auto;
+    padding: 20px;
+}
+
+#some {
+    font-size: 30px;
+    color: black;
+}
+
+#box1 i,
+#box2 i,
+#box3 i,
+#box4 i {
+    border: solid;
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+    list-style: none;
+    margin: 10px 30;
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    transition: .5s;
+    width: 24%;
+    float: left;
+}
+
+#box4 i,
+#box3 i,
+#box2 i,
+#box1 i {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 3;
+    background: rgb(32, 128, 206);
+    color: whitesmoke
+}
+
+
+/* END shadw-box */
+
+
+/* START MAIN */
+
+#my-title #main {
+    background: url("img/background.jpg");
+}
+
+#main p {
+    color: #fff;
+    width: 63%;
+    margin: 10px auto;
+    line-height: 1.2;
+}
+
+#main h1 {
+    color: white;
+    margin: auto;
+    box-shadow: none;
+    padding: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 260px;
+    text-align: center;
+}
+
+#main button {
+    background: yellowgreen;
+    color: white;
+    text-align: center;
+    margin-left: 650px;
+    height: 30px;
+}
+
+
+/* END  MAIN */
+
+
+/* start Warp */
+
+#warp .center img {
+    margin: 30px;
+    padding: 23px;
+    float: left;
+    display: block;
+    width: 80%;
+    height: 10;
+}
+
+#warp .center {
+    margin-bottom: auto;
+    color: #333;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+}
+
+
+/* End Warp */
+
+
+/* Start Retina */
+
+.R-Ready {
+    background-color: rgb(17, 41, 41);
+    color: whitesmoke;
+}
+
+#Retina {
+    margin-top: 25px;
+    height: 150px;
+    text-align: center;
+    float: none;
+    font-size: 10px;
+}
+
+#Retina,
+h1 {
+    margin-top: 65px;
+}
+
+
+/* End Retina
+/* Start footer */
+
+#main-footer {
+    text-align: center;
+    background-color: rgb(78, 177, 177);
+    color: whitesmoke;
+    padding: 20px;
+}
+
+
+/* End footer  */
